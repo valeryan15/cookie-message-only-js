@@ -1,0 +1,31 @@
+{
+  "name": "cookie-message-only-js",
+  "version": "0.0.1",
+  "description": "Create a simple cookie confirmation window",
+  "private": true,
+  "author": "Malanin V.A.",
+  "license": "MIT",
+  "main": "dist/cookie-message.js",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  },
+  "scripts": {
+    "prod": "npx webpack --config webpack.prod.js",
+    "dev": "npx webpack --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit i",
+    "start": "node dev-server.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
