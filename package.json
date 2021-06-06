@@ -2,8 +2,17 @@
   "name": "cookie-message-only-js",
   "version": "0.0.1",
   "description": "Create a simple cookie confirmation window",
-  "private": true,
-  "author": "Malanin V.A.",
+  "private": false,
+  "author": "Malanin V.A.<valeryan15@gmail.com>",
+  "username": "valeryan15",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeryan15/cookie-message-only-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valeryan15/cookie-message-only-js/issues"
+  },
+  "homepage": "https://github.com/valeryan15/cookie-message-only-js.git",
   "license": "MIT",
   "main": "dist/cookie-message.js",
   "devDependencies": {
